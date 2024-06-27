@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Jornal Cachoeira - Fale Conosco</title>
+    <link rel="stylesheet" href="_css/estilo.css">
+    <link rel="stylesheet" href="_css/submenus.css">
+    <link rel="stylesheet" href="_css/exp.css">
+    <script src="_js/sbm.js" language="javascript"></script>
+    <style>
+        nav#menu li#fale-conosco {
+            background-color: #606060;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="interface">
+        <header id="cabecalho">
+            <img id="logo" src="_imgJ/jornal.png" alt="jornal Cachoeira">
+            <img id="icones" src="_imgJ/contato.png">
+            <hgroup id="titulo" onmouseover="sbm(''), exp1(''), exp2(''), exp3(''), exp4(''), exp5(''), exp6('')">
+                <h1 id="titulo-do-jornal">Jornal Cachoeira</h1>
+                <h4 id="slogan-do-jornal">Não Fique no Escuro, te mantemos informado.</h4>
+            </hgroup>
+
+            <nav id="menu">
+                <h1 id="informacao">Menu Principal</h1>
+                <ul type="disc">
+                    <li id="home1" onmouseout="inc1('_imgJ/contato.png'), exp1(''), exp2(''), exp3(''), exp4(''), exp5(''), exp6(''), sbm('')"
+                        onmouseover="exp1('_exp/home.html'), exp2(''), exp3(''), exp4(''), exp5(''), exp6(''), sbm(''), inc1('_imgJ/home.png')">
+                        <a href="index.html">Home</a></li>
+                    <li id="eventos1" onmouseout="inc1('_imgJ/contato.png'), exp1(''), exp2(''), exp3(''), exp4(''), exp5(''), exp6(''), sbm('')"
+                        onmouseover="exp2('_exp/eventos.html'), exp1(''), exp3(''), exp4(''), exp5(''), exp6(''), sbm(''), inc2('_imgJ/eventos.png')">
+                        <a href="eventos.html">Eventos</a></li>
+                    <li id="generos" onmouseout="inc1('_imgJ/contato.png'), exp1(''), exp2(''), exp3(''), exp4(''), exp5(''), exp6('')"
+                        onmouseover="sbm('_sbm/genero.html'), exp1(''), exp2(''), exp3(''), exp4(''), exp5(''), exp6(''), inc3('_imgJ/generos.png')">
+                        <a href="">Gêneros</a></li>
+                    <li id="edicoes1" onmouseout="inc1('_imgJ/contato.png'), exp1(''), exp2(''), exp3(''), exp4(''), exp5(''), exp6(''), sbm('')"
+                        onmouseover="exp3('_exp/edicoes.html'), exp1(''), exp2(''), exp4(''), exp5(''), exp6(''), sbm(''), inc4('_imgJ/edicoes.png')">
+                        <a href="edicoes.html">Edições</a></li>
+                    <li id="fale-conosco" onmouseout="inc1('_imgJ/contato.png'), exp1(''), exp2(''), exp3(''), exp4(''), exp5(''), exp6(''), sbm('')"
+                        onmouseover="exp4('_exp/fale-conosco.html'), exp1(''), exp2(''), exp3(''), exp5(''), exp6(''), sbm(''), inc5('_imgJ/contato.png')">
+                        <a href="fale_conosco.html">Fale Conosco</a></li>
+                    <li id="sobre-c" onmouseout="inc1('_imgJ/contato.png'), exp1(''), exp2(''), exp3(''), exp4(''), exp5(''), exp6(''), sbm('')"
+                        onmouseover="exp5('_exp/sobre-c-escura.html'), exp1(''), exp2(''), exp3(''), exp4(''), exp6(''), sbm(''), inc6('_imgJ/sobre.png')">
+                        <a href="sobre_c_escura.html">Sobre C.Escura</a></li>
+                    <li id="sobre1" onmouseout="inc1('_imgJ/contato.png'), exp1(''), exp2(''), exp3(''), exp4(''), exp5(''), exp6(''), sbm('')"
+                        onmouseover="exp6('_exp/sobre-s.html'), exp1(''), exp2(''), exp3(''), exp4(''), exp5(''), sbm(''), inc7('_imgJ/sobre.png')">
+                        <a href="sobre_o_site.html">Sobre o Site</a></li>
+                    <iframe src="" scrolling="no" frameborder="0" name="subm-home" id="subm-home-id"></iframe>
+                    <iframe src="" scrolling="no" frameborder="0" name="subm-eventos" id="subm-eventos-id"></iframe>
+                    <iframe src="" scrolling="no" frameborder="0" name="subm-gen" id="subm-gen-id"></iframe>
+                    <iframe src="" scrolling="no" frameborder="0" name="subm-edicoes" id="subm-edicoes-id"></iframe>
+                    <iframe src="" scrolling="no" frameborder="0" name="subm-fale-conosco"
+                        id="subm-fale-conosco-id"></iframe>
+                    <iframe src="" scrolling="no" frameborder="0" name="subm-sobre-c" id="subm-sobre-c-id"></iframe>
+                    <iframe src="" scrolling="no" frameborder="0" name="subm-sobre" id="subm-sobre-id"></iframe>
+                </ul>
+            </nav>
+            <section id="corpo" onmouseover="sbm(''), exp1(''), exp2(''), exp3(''), exp4(''), exp5(''), exp6('')">
+                <article>
+                    <h1 class="titulo-edicao">
+                        Fale Conosco
+                    </h1>
+                </article>
+                <iframe src="_mt/fale-c.html" scrolling="no" frameborder="0" name="fale-c-name" id="fale-c-id"
+                    height="850px"></iframe>
+
+            </section>
+        </header>
+        <footer id="rodape"  onmouseover="sbm(''), exp1(''), exp2(''), exp3(''), exp4(''), exp5(''), exp6('')">
+            <p>Copyright &copy; 2019 - by SCUR<p>
+                    <!--<a href="">Facebook</a> | <a href="">Twitter</a> | <a href="">Instragram</a>-->
+        </footer>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+iframe#subm-gen-id{
+    position: absolute;
+    display: block;
+    width: 150px;
+    height: 180px;
+    margin-left: 360px;
+    margin-top: 10px;
+    border: none;
+    overflow: hidden;
+}
+iframe#subm-home-id{
+    position: absolute;
+    display: block;
+    float: left;
+    height: 20px;
+    width: 290px;
+    margin-top: 7.5px;
+    margin-left: 30px;
+}
+iframe#subm-eventos-id{
+    position: absolute;
+    display: block;
+    float: left;
+    height: 20px;
+    width: 230px;
+    margin-top: 7.5px;
+    margin-left: 170px;
+}
+iframe#subm-edicoes-id{
+    position: absolute;
+    display: block;
+    float: left;
+    height: 20px;
+    width: 230px;
+    margin-top: 7.5px;
+    margin-left: 450px;
+}
+iframe#subm-fale-conosco-id{
+    position: absolute;
+    display: block;
+    float: left;
+    height: 20px;
+    width: 210px;
+    margin-top: 7.5px;
+    margin-left: 620px;
+}
+iframe#subm-sobre-c-id{
+    position: absolute;
+    display: block;
+    float: left;
+    height: 20px;
+    width: 260px;
+    margin-top: 7.5px;
+    margin-left: 795px;
+}
+iframe#subm-sobre-id{
+    position: absolute;
+    display: block;
+    float: left;
+    height: 20px;
+    width: 190px;
+    margin-top: 7.5px;
+    margin-left: 1020px;
+}

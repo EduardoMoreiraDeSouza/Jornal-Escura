@@ -1,0 +1,14 @@
+@charset "UTF-8";
+/*Jovens desenvolvem um projeto para mudar a forma como vemos a tecnologia!*/
+article#Jovens-desenvolvem-um-projeto-para-mudar-a-forma-como-vemos-a-tecnologia img#mt01{
+    display: block;
+    float: left;
+    width: 400px;
+    height: 300px;
+    margin-right: 10px;
+}
+article#sobre-cachoeira-escura h3{
+    color: #606060;
+    text-align: center;
+    size: 12.5pt;
+}

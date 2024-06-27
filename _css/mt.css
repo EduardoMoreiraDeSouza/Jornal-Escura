@@ -1,0 +1,56 @@
+@charset "UTF-8";
+header#cabecalho p {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header#cabecalho div.center{
+    text-align: center;
+    background-color: lightslategrey;
+
+}
+
+header#cabecalho p.genero {
+    color: #606060;
+}
+
+header#cabecalho p.edicao {
+    color: #606060;
+}
+
+header#cabecalho p.data-de-pb {
+    color: #606060;
+}
+
+header#cabecalho p.idc-livre {
+    margin-top: -45px;
+    display: block;
+    float: right;
+    background-color: green;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+}
+
+section#conteudo {
+    text-align: justify;
+    font-size: 12.5pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #606060;
+    text-align: center;
+}
+
+p {
+    text-indent: 30px;
+}
+
+p.aspas {
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+p.corpo-do-texto {
+    margin-top: -10px;
+}
